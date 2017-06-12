@@ -1,0 +1,5350 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "_source": {
+          "id": "fd55e9c5-351e-4593-92f3-a5e7e40790d3",
+          "ordinal": "1",
+          "this_account": {
+            "uuid": "3420d6c1-fb60-4ac5-a226-0d741f498ad2",
+            "type": "mortgage",
+            "product": {
+              "code": "901",
+              "name": "2 year fixed rate",
+              "description": "2 year fixed rate mortgage"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": false,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": false,
+              "/account/payments/uk/default/out": false,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": "650000",
+            "number": "11223344",
+            "metadata": {
+              "display_name": "Mortgage"
+            }
+          },
+          "details": {
+            "type": "Fee",
+            "posted": true,
+            "when": "2016-05-28T13:00:00.000+01:00",
+            "amount": {
+              "value": -215.98,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 02, sports car ab",
+              "medium": "Card 02, sports car ab",
+              "large": "Card 02, sports car ab"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "1f151124-966c-4e51-944e-373c906065c5",
+          "ordinal": "2",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "ATM",
+            "posted": true,
+            "when": "2016-05-27T15:00:00.000+01:00",
+            "amount": {
+              "value": -50.0,
+              "currency": "GBP"
+            },
+             "narrative": {
+             "small": "Card 01, Cash Machine Network abcdefghijklmnopqrstuvwxyz",
+             "medium": "Card 01, Cash Machine Network abcdefghijklmnopqrstuvwxyz",
+             "large": "Card 01, Cash Machine Network abcdefghijklmnopqrstuvwxyz"
+             }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Glasgow"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "ea17e10f-682e-4c7e-a1ba-1332638d591b",
+          "ordinal": "3",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": false,
+            "when": "2016-05-27T13:00:00.000+01:00",
+            "amount": {
+              "value": -5.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, Charity Appeals",
+              "medium": "Card 01, Charity Appeals",
+              "large": "Card 01, Charity Appeals"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Other",
+                "path": "/other",
+                "scheme": "NAG Categories",
+                "id": 14,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "726d1bd4-1c6c-40fc-bae4-8eda1323d7fa",
+          "ordinal": "4",
+          "this_account": {
+            "uuid": "a91fe657-4605-42c7-96f1-3e1cc8555276",
+            "type": "savings",
+            "product": {
+              "code": "901",
+              "name": "B Savings Account",
+              "description": "B Savings Account"
+            },
+            "actions_available": {
+              "/account/pots": true,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": true,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "44224422",
+            "metadata": {
+              "display_name": "B Instant Savings"
+            }
+          },
+          "details": {
+            "type": "Fee",
+            "posted": true,
+            "when": "2016-05-27T00:01:00.000+01:00",
+            "amount": {
+              "value": 3.13,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Interest Gross, 12345678",
+              "medium": "Interest Gross, 12345678",
+              "large": "Interest Gross, 12345678"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "6cbb845f-fe53-439d-968d-865fbb26ecab",
+          "ordinal": "5",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-26T13:00:00.000+01:00",
+            "amount": {
+              "value": -73.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, New Fashions",
+              "medium": "Card 01, New Fashions",
+              "large": "Card 01, New Fashions"
+            }
+          },
+          "metadata": {
+            "tags": [
+              {
+                "value": "Shoes",
+                "id": "4a3136d9-07fe-48e0-bc1d-d9a7749b3d2f",
+                "archived": false
+              }
+            ],
+            "categories": [
+              {
+                "value": "Style",
+                "path": "/style",
+                "scheme": "NAG Categories",
+                "id": 18,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "34dd756f-a0ba-41f0-ab59-318fdcb6b32e",
+          "ordinal": "6",
+          "this_account": {
+            "uuid": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-20T10:00:00.000+01:00",
+            "amount": {
+              "value": 31.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 02, Vets For Pets",
+              "medium": "Card 02, Vets For Pets,",
+              "large": "Card 02, Vets For Pets,"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Pets",
+                "path": "/pets",
+                "scheme": "NAG Categories",
+                "id": 15,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "76de8df1-cf6b-4259-b0d0-d8ddf658133f",
+          "ordinal": "7",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": false,
+            "when": "2016-05-18T13:00:00.000+01:00",
+            "amount": {
+              "value": -12.12,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, The Chemist",
+              "medium": "Card 01, The Chemist",
+              "large": "Card 01, The Chemist"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "c1d04b17-7f7f-4b94-bf91-6de3d222328f",
+          "ordinal": "8",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "ATM",
+            "posted": true,
+            "when": "2016-05-18T13:00:00.000+01:00",
+            "amount": {
+              "value": 140.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, CYB Bank",
+              "medium": "Card 01, CYB Bank",
+              "large": "Card 01, CYB Bank"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "c4f1ec74-2d32-41d6-9d1b-d95384cee09c",
+          "ordinal": "9",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "posted": true,
+            "when": "2016-05-18T00:01:00.000+01:00",
+            "amount": {
+              "value": -146.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "EB, BOB Brown 4321",
+              "medium": "EB, BOB Brown 4321",
+              "large": "EB, BOB Brown 4321"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Finance",
+                "path": "/finance",
+                "scheme": "NAG Categories",
+                "id": 3,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "513eb5fb-b85f-4746-89a3-dfd30d58accc",
+          "ordinal": "10",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-18T00:01:00.000+01:00",
+            "amount": {
+              "value": -12.12,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, The Chemist",
+              "medium": "Card 01, The Chemist",
+              "large": "Card 01, The Chemist"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Well being",
+                "path": "/well being",
+                "scheme": "NAG Categories",
+                "id": 21,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "01c0ff55-2581-4dfc-aad6-b64dab5b408e",
+          "ordinal": "11",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "posted": true,
+            "when": "2016-05-17T00:01:00.000+01:00",
+            "amount": {
+              "value": -130.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "EB, BOB Brown 44224422",
+              "medium": "EB, BOB Brown 44224422",
+              "large": "EB, BOB Brown 44224422"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "da77b65d-e4d1-4794-89be-3155edf8a81c",
+          "ordinal": "12",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Direct Debit",
+            "posted": false,
+            "when": "2016-05-16T13:00:00.000+01:00",
+            "amount": {
+              "value": -103.37,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "CYB Bank Loan, 22446699",
+              "medium": "CYB Bank Loan, 22446699",
+              "large": "CYB Bank Loan, 22446699"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Finance",
+                "path": "/finance",
+                "scheme": "NAG Categories",
+                "id": 3,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "f6519729-b036-4a6f-a33f-debc88fcec76",
+          "ordinal": "13",
+          "this_account": {
+            "uuid": "3420d6c1-fb60-4ac5-a226-0d741f498ad2",
+            "type": "mortgage",
+            "product": {
+              "code": "901",
+              "name": "2 year fixed rate",
+              "description": "2 year fixed rate mortgage"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": false,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": false,
+              "/account/payments/uk/default/out": false,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": "650000",
+            "number": "11223344",
+            "metadata": {
+              "display_name": "Mortgage"
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "posted": true,
+            "when": "2016-05-16T00:01:00.000+01:00",
+            "amount": {
+              "value": 317.21,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Bob Brown / 12345678",
+              "medium": "Bob Brown / 12345678",
+              "large": "Bob Brown / 12345678"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "2bc90178-3b8b-40cd-b06b-3f5a73afbed5",
+          "ordinal": "14",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "POS",
+            "posted": true,
+            "when": "2016-05-15T13:00:00.000+01:00",
+            "amount": {
+              "value": -55.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, New Fashions",
+              "medium": "Card 01, New Fashions",
+              "large": "Card 01, New Fashions"
+            }
+          },
+          "metadata": {
+            "tags": [
+              {
+                "value": "Shoes",
+                "id": "4a3136d9-07fe-48e0-bc1d-d9a7749b3d2f",
+                "archived": false
+              }
+            ],
+            "categories": [
+
+            ],
+            "where": {
+              "city": "Glasgow"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "79fceec7-6035-4321-82c4-bce65ec78c18",
+          "ordinal": "15",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-14T13:00:00.000+01:00",
+            "amount": {
+              "value": -1.57,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, Mr Greens Greengrocers",
+              "medium": "Card 01, Mr Greens Greengrocers",
+              "large": "Card 01, Mr Greens Greengrocers"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Groceries",
+                "path": "/groceries",
+                "scheme": "NAG Categories",
+                "id": 6,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "664e19ab-1bd7-471c-9543-eafad3e9c264",
+          "ordinal": "16",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Fee",
+            "posted": true,
+            "when": "2016-05-14T00:01:00.000+01:00",
+            "amount": {
+              "value": -0.28,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Interest",
+              "medium": "Interest",
+              "large": "Interest"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "45b1a171-d774-4c37-b817-906ff3f4c6c1",
+          "ordinal": "17",
+          "this_account": {
+            "uuid": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-12T16:00:00.000+01:00",
+            "amount": {
+              "value": 230.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 02, Home Comforts",
+              "medium": "Card 02, Home Comforts",
+              "large": "Card 02, Home Comforts"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Home",
+                "path": "/home",
+                "scheme": "NAG Categories",
+                "id": 8,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "cc86a7df-14a6-41b3-9116-0453e285e8a8",
+          "ordinal": "18",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-12T13:00:00.000+01:00",
+            "amount": {
+              "value": -3.99,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, The Outdoor Cafe",
+              "medium": "Card 01, The Outdoor Cafe",
+              "large": "Card 01, The Outdoor Cafe"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Eating out",
+                "path": "/eating out",
+                "scheme": "NAG Categories",
+                "id": 12,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "c39f0c1d-9448-4467-a772-f758cf3df45e",
+          "ordinal": "19",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "POS",
+            "posted": true,
+            "when": "2016-05-12T13:00:00.000+01:00",
+            "amount": {
+              "value": -75.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, Fashion First Boutique",
+              "medium": "Card 01, Fashion First Boutiquet Boutique",
+              "large": "Card 01, Fashion First Boutiqueoutique"
+            }
+          },
+          "metadata": {
+            "tags": [
+              {
+                "value": "Shoes",
+                "id": "4a3136d9-07fe-48e0-bc1d-d9a7749b3d2f",
+                "archived": false
+              }
+            ],
+            "categories": [
+
+            ],
+            "where": {
+              "city": "Glasgow"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "632a5495-6362-4082-83e5-026a499005d6",
+          "ordinal": "20",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-12T08:00:00.000+01:00",
+            "amount": {
+              "value": -19.8,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 02, Fashion First Boutique",
+              "medium": "Card 02, Fashion First Boutique",
+              "large": "Card 02, Fashion First Boutique"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Style",
+                "path": "/style",
+                "scheme": "NAG Categories",
+                "id": 18,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "5ffaab64-a851-453a-924e-22ffdb1702a5",
+          "ordinal": "21",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-12T00:01:00.000+01:00",
+            "amount": {
+              "value": -32.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, Pet Shop",
+              "medium": "Card 01, Pet Shop",
+              "large": "Card 01, Pet Shop"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Pets",
+                "path": "/pets",
+                "scheme": "NAG Categories",
+                "id": 15,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "641670fb-a5bc-45b5-a355-17dd9bcb2562",
+          "ordinal": "22",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-11T10:00:00.000+01:00",
+            "amount": {
+              "value": -24.99,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, Do It - Build It DIY",
+              "medium": "Card 01, Do It - Build It DIY",
+              "large": "Card 01, Do It - Build It DIY"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Home",
+                "path": "/home",
+                "scheme": "NAG Categories",
+                "id": 8,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "8454daa2-db82-4fe1-add8-4749cec4c731",
+          "ordinal": "23",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "BACS",
+            "posted": true,
+            "when": "2016-05-11T00:01:00.000+01:00",
+            "amount": {
+              "value": 2300.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "BACS, Recruitment Solutions Salary",
+              "medium": "BACS, Recruitment Solutions Salary",
+              "large": "BACS, Recruitment Solutions Salary"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Earnings",
+                "path": "/earnings",
+                "scheme": "NAG Categories",
+                "id": 22,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "b36f9586-a653-4d73-8444-2cd852d68041",
+          "ordinal": "24",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-10T13:00:00.000+01:00",
+            "amount": {
+              "value": -67.14,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 02, Fashion First Boutique",
+              "medium": "Card 02, Fashion First Boutique",
+              "large": "Card 02, Fashion First Boutique"
+            }
+          },
+          "metadata": {
+            "tags": [
+              {
+                "value": "Shoes",
+                "id": "4a3136d9-07fe-48e0-bc1d-d9a7749b3d2f",
+                "archived": false
+              }
+            ],
+            "categories": [
+
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "39373a79-54b0-44ca-b70c-18be5f6ec102",
+          "ordinal": "25",
+          "this_account": {
+            "uuid": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-09T13:00:00.000+01:00",
+            "amount": {
+              "value": 78.66,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 02, Electronics.com",
+              "medium": "Card 02, Electronics.com",
+              "large": "Card 02, Electronics.com"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Tech",
+                "path": "/tech",
+                "scheme": "NAG Categories",
+                "id": 13,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "8ed8ae91-1971-40af-8db6-6ed0523432de",
+          "ordinal": "26",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-09T13:00:00.000+01:00",
+            "amount": {
+              "value": -183.99,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, The Grocers Ltd",
+              "medium": "Card 01, The Grocers Ltd",
+              "large": "Card 01, The Grocers Ltd"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Groceries",
+                "path": "/groceries",
+                "scheme": "NAG Categories",
+                "id": 6,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "89391dae-e08d-4903-a917-8133c0a12c58",
+          "ordinal": "27",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-09T12:01:00.000+01:00",
+            "amount": {
+              "value": -2.37,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, Treats 'N' Sweets",
+              "medium": "Card 01, Treats 'N' Sweets",
+              "large": "Card 01, Treats 'N' Sweets"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Kids",
+                "path": "/kids",
+                "scheme": "NAG Categories",
+                "id": 10,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "e591777c-f2c6-4651-b5b7-0142ecf480ec",
+          "ordinal": "28",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Direct Debit",
+            "posted": true,
+            "when": "2016-05-09T00:01:00.000+01:00",
+            "amount": {
+              "value": -317.21,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "CYB Mortgage Payment 11223344",
+              "medium": "CYB Mortgage Payment 11223344",
+              "large": "CYB Mortgage Payment 11223344"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Mortgage or rent",
+                "path": "/mortgage or rent",
+                "scheme": "NAG Categories",
+                "id": 11,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "20d08b09-09ac-4365-aeb1-1cff19c7c413",
+          "ordinal": "29",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-08T10:01:00.000+01:00",
+            "amount": {
+              "value": -105.24,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, Get Away Hotels",
+              "medium": "Card 01, Get Away Hotels",
+              "large": "Card 01, Get Away Hotels"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Staying away",
+                "path": "/staying away",
+                "scheme": "NAG Categories",
+                "id": 17,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "17d65444-790b-43c8-a646-c358435f3800",
+          "ordinal": "30",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Direct Debit",
+            "posted": true,
+            "when": "2016-05-08T00:01:00.000+01:00",
+            "amount": {
+              "value": -119.89,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Leafyville Borough Council Tax, 785785785",
+              "medium": "Leafyville Borough Council Tax, 785785785",
+              "large": "Leafyville Borough Council Tax, 785785785"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Utilities",
+                "path": "/utilities",
+                "scheme": "NAG Categories",
+                "id": 20,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "e8b12dc1-9474-40b1-8b12-44f0a528957a",
+          "ordinal": "31",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "POS",
+            "posted": true,
+            "when": "2016-05-06T13:00:00.000+01:00",
+            "amount": {
+              "value": -65.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, Suited and Booted",
+              "medium": "Card 01, Suited and Booted",
+              "large": "Card 01, Suited and Booted"
+            }
+          },
+          "metadata": {
+            "tags": [
+              {
+                "value": "Shoes",
+                "id": "4a3136d9-07fe-48e0-bc1d-d9a7749b3d2f",
+                "archived": false
+              }
+            ],
+            "categories": [
+
+            ],
+            "where": {
+              "city": "Edinburgh"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "5b9b9770-f791-43f0-92ff-d50d5e603b07",
+          "ordinal": "32",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Direct Debit",
+            "posted": true,
+            "when": "2016-05-06T00:01:00.000+01:00",
+            "amount": {
+              "value": -38.51,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Broadband & Cable TV TVBB121INT",
+              "medium": "Broadband & Cable TV TVBB121INT",
+              "large": "Broadband & Cable TV TVBB121INT"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Utilities",
+                "path": "/utilities",
+                "scheme": "NAG Categories",
+                "id": 20,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "872df308-4aa1-4a28-8c1f-893e8e7e4dcc",
+          "ordinal": "33",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Standing Order",
+            "posted": true,
+            "when": "2016-05-05T13:00:00.000+01:00",
+            "amount": {
+              "value": -18.25,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Sweat It Out Gym - Monthly Membership",
+              "medium": "Sweat It Out Gym - Monthly Membership",
+              "large": "Sweat It Out Gym - Monthly Membership"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Keeping fit",
+                "path": "/keeping fit",
+                "scheme": "NAG Categories",
+                "id": 9,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "747579de-b238-4747-b828-21e1f96ea0aa",
+          "ordinal": "34",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Direct Debit",
+            "posted": true,
+            "when": "2016-05-04T13:00:00.000+01:00",
+            "amount": {
+              "value": -54.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "UK Electric Co, 98712345",
+              "medium": "UK Electric Co, 98712345",
+              "large": "UK Electric Co, 98712345"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Utilities",
+                "path": "/utilities",
+                "scheme": "NAG Categories",
+                "id": 20,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "55547beb-4612-4f9b-8411-3ab8ffa2a0b1",
+          "ordinal": "35",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "POS",
+            "posted": true,
+            "when": "2016-05-04T13:00:00.000+01:00",
+            "amount": {
+              "value": -69.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, Gents Brogue Co",
+              "medium": "Card 01, Gents Brogue Co",
+              "large": "Card 1, Gents Brogue Co"
+            }
+          },
+          "metadata": {
+            "tags": [
+              {
+                "value": "Shoes",
+                "id": "4a3136d9-07fe-48e0-bc1d-d9a7749b3d2f",
+                "archived": false
+              }
+            ],
+            "categories": [
+
+            ],
+            "where": {
+              "city": "London"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "a36ce15f-c802-4049-8c07-8fb42e8fa88a",
+          "ordinal": "36",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-04T10:05:00.000+01:00",
+            "amount": {
+              "value": -46.36,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 02, The Complete Sports Store",
+              "medium": "Card 02, The Complete Sports Store",
+              "large": "Card 02, The Complete Sports Store"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Keeping fit",
+                "path": "/keeping fit",
+                "scheme": "NAG Categories",
+                "id": 9,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "663bb08a-68b7-4e58-8a42-b23b82a3f5d3",
+          "ordinal": "37",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Direct Debit",
+            "posted": true,
+            "when": "2016-05-03T00:01:00.000+01:00",
+            "amount": {
+              "value": -77.25,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "UK Gas Co, 112233",
+              "medium": "UK Gas Co, 112233",
+              "large": "UK Gas Co, 112233"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Mortgage or rent",
+                "path": "/mortgage or rent",
+                "scheme": "NAG Categories",
+                "id": 11,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "7e9eba9c-a939-487c-8ed1-0bda36840220",
+          "ordinal": "38",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-02T14:00:00.000+01:00",
+            "amount": {
+              "value": -77.25,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, West Bound Trains",
+              "medium": "Card 01, West Bound Trains",
+              "large": "Card 01, West Bound Trains"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Getting around",
+                "path": "/getting around",
+                "scheme": "NAG Categories",
+                "id": 5,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "29384a75-c3b4-409f-985c-376957c7809d",
+          "ordinal": "39",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "POS",
+            "posted": true,
+            "when": "2016-05-02T13:00:00.000+01:00",
+            "amount": {
+              "value": -80.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, Gents Brogue Co",
+              "medium": "Card 01, Gents Brogue Co",
+              "large": "Card 01, Gents Brogue Co"
+            }
+          },
+          "metadata": {
+            "tags": [
+              {
+                "value": "Shoes",
+                "id": "4a3136d9-07fe-48e0-bc1d-d9a7749b3d2f",
+                "archived": false
+              }
+            ],
+            "categories": [
+
+            ],
+            "where": {
+              "city": "London"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "6aed362c-a084-41f7-bce9-9102b02bdd9a",
+          "ordinal": "40",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-02T13:00:00.000+01:00",
+            "amount": {
+              "value": 90.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 02, Morris Hotels",
+              "medium": "Card 02, Morris Hotels",
+              "large": "Card 02, Morris Hotels"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Staying away",
+                "path": "/staying away",
+                "scheme": "NAG Categories",
+                "id": 17,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "b13c79c6-451b-4cf5-a7b2-ec5e275cb3f5",
+          "ordinal": "41",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Giro",
+            "posted": true,
+            "when": "2016-05-02T13:00:00.000+01:00",
+            "amount": {
+              "value": 2200.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Recruitment Solutions - Salary",
+              "medium": "Recruitment Solutions - Salary",
+              "large": "Recruitment Solutions - Salary"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Earnings",
+                "path": "/earnings",
+                "scheme": "NAG Categories",
+                "id": 22,
+                "archived": false
+              }
+            ]
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "edddc526-4575-4596-82d3-2716772efbb0",
+          "ordinal": "42",
+          "this_account": {
+            "uuid": "05985dae-d2de-4ebc-ab0a-79093081bde5",
+            "type": "loan",
+            "product": {
+              "code": "901",
+              "name": "Personal Loan",
+              "description": "Personal Loan"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": false,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": false,
+              "/account/payments/uk/default/out": false,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": "650000",
+            "number": "22446699",
+            "metadata": {
+              "display_name": "Loan Account"
+            }
+          },
+          "details": {
+            "type": "Charges",
+            "posted": true,
+            "when": "2016-04-27T13:00:00.000+01:00",
+            "amount": {
+              "value": -28.68,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Interest",
+              "medium": "Interest",
+              "large": "Interest"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "29716fa9-e626-400e-ac46-7e4a4340f2da",
+          "ordinal": "43",
+          "this_account": {
+            "uuid": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Charge",
+            "posted": true,
+            "when": "2016-04-27T13:00:00.000+01:00",
+            "amount": {
+              "value": 19.05,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Interest",
+              "medium": "Interest",
+              "large": "Interest"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "293c7630-92e2-42b7-ac64-479b36625ff6",
+          "ordinal": "44",
+          "this_account": {
+            "uuid": "3420d6c1-fb60-4ac5-a226-0d741f498ad2",
+            "type": "mortgage",
+            "product": {
+              "code": "901",
+              "name": "2 year fixed rate",
+              "description": "2 year fixed rate mortgage"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": false,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": false,
+              "/account/payments/uk/default/out": false,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": "650000",
+            "number": "11223344",
+            "metadata": {
+              "display_name": "Mortgage"
+            }
+          },
+          "details": {
+            "type": "Charge",
+            "posted": true,
+            "when": "2016-04-27T13:00:00.000+01:00",
+            "amount": {
+              "value": -215.98,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Interest",
+              "medium": "Interest",
+              "large": "Interest"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "c6b8e89c-8ff9-4c40-af50-dfaa12917b4b",
+          "ordinal": "45",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "ATM",
+            "posted": true,
+            "when": "2016-04-26T13:00:00.000+01:00",
+            "amount": {
+              "value": -10.0,
+              "currency": "GBP"
+            },
+             "narrative": {
+             "small": "Card 01, Cash Machine Network abcdefghijklmnopqrstuvwxyz",
+             "medium": "Card 01, Cash Machine Network abcdefghijklmnopqrstuvwxyz",
+             "large": "Card 01, Cash Machine Network abcdefghijklmnopqrstuvwxyz"
+             }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "f42fe6bd-5909-48e8-ba92-ec7e5c83e6ab",
+          "ordinal": "46",
+          "this_account": {
+            "uuid": "a91fe657-4605-42c7-96f1-3e1cc8555276",
+            "type": "savings",
+            "product": {
+              "code": "901",
+              "name": "B Savings Account",
+              "description": "B Savings Account"
+            },
+            "actions_available": {
+              "/account/pots": true,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": true,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "44224422",
+            "metadata": {
+              "display_name": "B Instant Savings"
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "posted": true,
+            "when": "2016-04-25T13:00:00.000+01:00",
+            "amount": {
+              "value": 200.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Bob Brown / 12345678",
+              "medium": "Bob Brown / 12345678",
+              "large": "Bob Brown / 12345678"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "61a655fb-054d-426a-9a4d-a4d870096dcb",
+          "ordinal": "47",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": false,
+            "when": "2016-04-24T13:00:00.000+01:00",
+            "amount": {
+              "value": -22.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "card 01, Multiplex Cinema",
+              "medium": "card 01, Multiplex Cinema",
+              "large": "card 01, Multiplex Cinema"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Entertainment",
+                "path": "/entertainment",
+                "scheme": "NAG Categories",
+                "id": 2,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "04f3f392-03dd-43cf-b2b2-5c6fb1ffb0f3",
+          "ordinal": "48",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-04-23T13:00:00.000+01:00",
+            "amount": {
+              "value": 29.99,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, The Sports Shop",
+              "medium": "Card 01, The Sports Shop",
+              "large": "Card 01, The Sports Shop"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Style",
+                "path": "/style",
+                "scheme": "NAG Categories",
+                "id": 18,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "79e41376-16ba-4d71-ab85-ef58a2afbf77",
+          "ordinal": "49",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": false,
+            "when": "2016-04-20T13:00:00.000+01:00",
+            "amount": {
+              "value": -39.32,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, Pizza 'n' Pasta 'n' Parmesan",
+              "medium": "Card 01, Pizza 'n' Pasta ’n’ Parmesan",
+              "large": "Card 01, Pizza 'n' Pasta 'n' Parmesan"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Eating out",
+                "path": "/eating out",
+                "scheme": "NAG Categories",
+                "id": 12,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "df1db3d2-4739-4e86-a95d-032cdba1f763",
+          "ordinal": "50",
+          "this_account": {
+            "uuid": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point of Sale",
+            "posted": true,
+            "when": "2016-04-19T13:00:00.000+01:00",
+            "amount": {
+              "value": 64.86,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 02, The Chemist",
+              "medium": "Card 02, The Chemist",
+              "large": "Card 02, The Chemist"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Holidays",
+                "path": "/holidays",
+                "scheme": "NAG Categories",
+                "id": 7,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "f02acee4-8390-4686-9f09-ab22e9859a0a",
+          "ordinal": "51",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-04-19T08:00:00.000+01:00",
+            "amount": {
+              "value": -215.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, HMRC Road Tax",
+              "medium": "Card 01, HMRC Road Tax",
+              "large": "Card 01, HMRC Road Tax"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Getting around",
+                "path": "/getting around",
+                "scheme": "NAG Categories",
+                "id": 5,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "cd0b562b-1b74-48ad-903b-4c71708703d8",
+          "ordinal": "52",
+          "this_account": {
+            "uuid": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-04-18T11:00:00.000+01:00",
+            "amount": {
+              "value": 64.86,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 02, The Chemist",
+              "medium": "Card 02, The Chemist",
+              "large": "Card 02, The Chemist"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Holidays",
+                "path": "/holidays",
+                "scheme": "NAG Categories",
+                "id": 7,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "901c5991-9c7d-4160-8c7b-526210908737",
+          "ordinal": "53",
+          "this_account": {
+            "uuid": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-04-18T07:00:00.000+01:00",
+            "amount": {
+              "value": 200.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": " Card 02, Holidays Online",
+              "medium": "Card 02, Holidays Online",
+              "large": "Card 02, Holidays Online"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Holidays",
+                "path": "/holidays",
+                "scheme": "NAG Categories",
+                "id": 7,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "0d19726d-00a3-45c9-a783-3d63dd0998ab",
+          "ordinal": "54",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-04-17T15:00:00.000+01:00",
+            "amount": {
+              "value": -23.32,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, Quick Stop Garage",
+              "medium": "Card 01, Quick Stop Garage",
+              "large": "Card 01, Quick Stop Garage"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Fuel",
+                "path": "/fuel",
+                "scheme": "NAG Categories",
+                "id": 4,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "94ab725b-a8b0-43fc-b047-c8a27101c7e5",
+          "ordinal": "55",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Mobile Banking",
+            "posted": true,
+            "when": "2016-04-17T12:00:00.000+01:00",
+            "amount": {
+              "value": -500.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "MB , Bob Brown",
+              "medium": "MB , Bob Brown",
+              "large": "MB, CYB Credit Card"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "8ee3a23c-b321-4996-a47e-eead679167fc",
+          "ordinal": "56",
+          "this_account": {
+            "uuid": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "posted": true,
+            "when": "2016-04-17T08:00:00.000+01:00",
+            "amount": {
+              "value": -500.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Bob Brown 12345678",
+              "medium": "Bob Brown 12345678",
+              "large": "Bob Brown 12345678"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "6c03415d-0b00-4059-9267-b3b23316ae2c",
+          "ordinal": "57",
+          "this_account": {
+            "uuid": "3420d6c1-fb60-4ac5-a226-0d741f498ad2",
+            "type": "mortgage",
+            "product": {
+              "code": "901",
+              "name": "2 year fixed rate",
+              "description": "2 year fixed rate mortgage"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": false,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": false,
+              "/account/payments/uk/default/out": false,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": "650000",
+            "number": "11223344",
+            "metadata": {
+              "display_name": "Mortgage"
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "posted": true,
+            "when": "2016-04-16T16:00:00.000+01:00",
+            "amount": {
+              "value": 317.21,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Bob Brown / 12345678",
+              "medium": "Bob Brown / 12345678",
+              "large": "Bob Brown / 12345678"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "2092f972-b497-4b0c-89f9-97a9486084c5",
+          "ordinal": "58",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Direct Debit",
+            "posted": true,
+            "when": "2016-04-16T13:00:00.000+01:00",
+            "amount": {
+              "value": -103.37,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Loan, 22446699",
+              "medium": "Loan, 22446699",
+              "large": "Loan, 22446699"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Finance",
+                "path": "/finance",
+                "scheme": "NAG Categories",
+                "id": 3,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "c44a1c71-2a16-4f96-a598-6f1a11364d76",
+          "ordinal": "59",
+          "this_account": {
+            "uuid": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-04-16T08:00:00.000+01:00",
+            "amount": {
+              "value": 199.99,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 02, Bike Store",
+              "medium": "Card 02, Bike Store",
+              "large": "Card 02, Bike Store"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Keeping fit",
+                "path": "/keeping fit",
+                "scheme": "NAG Categories",
+                "id": 9,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "898fc857-5da1-403b-b7fe-fd2e9f82dcac",
+          "ordinal": "60",
+          "this_account": {
+            "uuid": "05985dae-d2de-4ebc-ab0a-79093081bde5",
+            "type": "loan",
+            "product": {
+              "code": "901",
+              "name": "Personal Loan",
+              "description": "Personal Loan"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": false,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": false,
+              "/account/payments/uk/default/out": false,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": "650000",
+            "number": "22446699",
+            "metadata": {
+              "display_name": "Loan Account"
+            }
+          },
+          "details": {
+            "type": "BAC",
+            "posted": true,
+            "when": "2016-04-16T01:00:00.000+01:00",
+            "amount": {
+              "value": 103.37,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Bob Brown 12345678",
+              "medium": "Bob Brown 12345678",
+              "large": "Bob Brown 12345678"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Finance",
+                "path": "/finance",
+                "scheme": "NAG Categories",
+                "id": 3,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "1e617e31-91fb-40d4-9792-504f5b0663da",
+          "ordinal": "61",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Direct Debit",
+            "posted": true,
+            "when": "2016-04-16T00:01:00.000+01:00",
+            "amount": {
+              "value": -103.37,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Bank Loan",
+              "medium": "Bank Loan",
+              "large": "Bank Loan"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Finance",
+                "path": "/finance",
+                "scheme": "NAG Categories",
+                "id": 3,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "b671cf03-b029-4951-b37d-6c9f3e950e50",
+          "ordinal": "62",
+          "this_account": {
+            "uuid": "05985dae-d2de-4ebc-ab0a-79093081bde5",
+            "type": "loan",
+            "product": {
+              "code": "901",
+              "name": "Personal Loan",
+              "description": "Personal Loan"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": false,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": false,
+              "/account/payments/uk/default/out": false,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": "650000",
+            "number": "22446699",
+            "metadata": {
+              "display_name": "Loan Account"
+            }
+          },
+          "details": {
+            "type": "BAC",
+            "posted": true,
+            "when": "2016-04-16T00:01:00.000+01:00",
+            "amount": {
+              "value": 103.37,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Brown, 12345678",
+              "medium": "Brown, 12345678",
+              "large": "Brown, 12345678"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "330f7c3e-7135-4158-80e5-94c0735787b5",
+          "ordinal": "63",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Electronic Banking",
+            "posted": true,
+            "when": "2016-04-15T13:00:00.000+01:00",
+            "amount": {
+              "value": -200.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "To B saving account",
+              "medium": "To B saving account",
+              "large": "To B saving account"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "371ffc12-ea11-484e-a9cd-4571fbaedbdd",
+          "ordinal": "64",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-04-13T14:00:00.000+01:00",
+            "amount": {
+              "value": -29.99,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, The Sports Shop",
+              "medium": "Card 01, The Sports Shop",
+              "large": "Card 01, The Sports Shop"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Style",
+                "path": "/style",
+                "scheme": "NAG Categories",
+                "id": 18,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "1a20a65b-622b-45f0-9d9e-41ca30a143c3",
+          "ordinal": "65",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-04-13T13:00:00.000+01:00",
+            "amount": {
+              "value": -27.99,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, Little Feet Shoe Co.",
+              "medium": "Card 01, Little Feet Shoe Co.",
+              "large": "Card 01, Little Feet Shoe Co."
+            }
+          },
+          "metadata": {
+            "tags": [
+              {
+                "value": "Shoes",
+                "id": "4a3136d9-07fe-48e0-bc1d-d9a7749b3d2f",
+                "archived": false
+              }
+            ],
+            "categories": [
+
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "6775ea0b-7ceb-4ffd-b890-1fb397e6c21a",
+          "ordinal": "66",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "EB",
+            "posted": true,
+            "when": "2016-04-12T13:00:00.000+01:00",
+            "amount": {
+              "value": -200.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "To my B Savings Account",
+              "medium": "To my B Savings Account",
+              "large": "To my B Savings Account"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "d33c0a2c-d518-4116-ae3f-93f4147ac459",
+          "ordinal": "67",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point of Sale",
+            "posted": true,
+            "when": "2016-04-12T13:00:00.000+01:00",
+            "amount": {
+              "value": -29.99,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, The Sports Shop",
+              "medium": "Card 01, The Sports Shop",
+              "large": "Card 01, The Sports Shop"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Style",
+                "path": "/style",
+                "scheme": "NAG Categories",
+                "id": 18,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "1db193d6-1ee8-4441-bcc4-2675af5e00ed",
+          "ordinal": "68",
+          "this_account": {
+            "uuid": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-04-12T13:00:00.000+01:00",
+            "amount": {
+              "value": 29.77,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 02, Burger Stores",
+              "medium": "Card 02, Burger Stores",
+              "large": "Card 02, Burger Stores"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Eating out",
+                "path": "/eating out",
+                "scheme": "NAG Categories",
+                "id": 12,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "df9690aa-32dc-4846-adba-c8aee3e5e3d0",
+          "ordinal": "69",
+          "this_account": {
+            "uuid": "a91fe657-4605-42c7-96f1-3e1cc8555276",
+            "type": "savings",
+            "product": {
+              "code": "901",
+              "name": "B Savings Account",
+              "description": "B Savings Account"
+            },
+            "actions_available": {
+              "/account/pots": true,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": true,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "44224422",
+            "metadata": {
+              "display_name": "B Instant Savings"
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "posted": true,
+            "when": "2016-04-12T00:01:00.000+01:00",
+            "amount": {
+              "value": 200.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Bob Brown / 12345678",
+              "medium": "Bob Brown / 12345678",
+              "large": "Bob Brown / 12345678"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "244e6d2c-cdf1-4c1b-bcc0-e88f0198c5bc",
+          "ordinal": "70",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "BACS",
+            "posted": true,
+            "when": "2016-04-11T13:00:00.000+01:00",
+            "amount": {
+              "value": 2200.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "BACS, Recruitment Solutions - Salary",
+              "medium": "BACS, Recruitment Solutions - Salary",
+              "large": "BACS, Recruitment Solutions - Salary"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Earnings",
+                "path": "/earnings",
+                "scheme": "NAG Categories",
+                "id": 22,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "4ded7d5e-009b-43df-8073-8143aafd95bb",
+          "ordinal": "71",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Direct Debit",
+            "posted": true,
+            "when": "2016-04-10T00:01:00.000+01:00",
+            "amount": {
+              "value": -119.89,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Leafyville Borough Council Tax",
+              "medium": "Leafyville Borough Council Tax",
+              "large": "Leafyville Borough Council Tax"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Utilities",
+                "path": "/utilities",
+                "scheme": "NAG Categories",
+                "id": 20,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "d8384dc9-5f3c-4685-8c0d-2302d3d2ed47",
+          "ordinal": "72",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Direct Debit",
+            "posted": false,
+            "when": "2016-04-09T00:01:00.000+01:00",
+            "amount": {
+              "value": -317.21,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "CYB Mortgage Payment",
+              "medium": "CYB Mortgage Payment",
+              "large": "CYB Mortgage Payment"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Mortgage or rent",
+                "path": "/mortgage or rent",
+                "scheme": "NAG Categories",
+                "id": 11,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "914b4848-ef82-4769-8072-7ee46dc3759a",
+          "ordinal": "73",
+          "this_account": {
+            "uuid": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-04-06T13:00:00.000+01:00",
+            "amount": {
+              "value": 43.25,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 02, Vets for Pets",
+              "medium": "Card 02, Vets for Pets",
+              "large": "Card 02, Vets for Pets"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Pets",
+                "path": "/pets",
+                "scheme": "NAG Categories",
+                "id": 15,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "e436d90f-4b80-4614-850d-08eb2a31d4a9",
+          "ordinal": "74",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Direct Debit",
+            "posted": false,
+            "when": "2016-04-06T00:01:00.000+01:00",
+            "amount": {
+              "value": -38.51,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Broadband & Cable TV",
+              "medium": "Broadband & Cable TV",
+              "large": "Broadband & Cable TV"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "f9277fee-2d7e-4091-88da-2c9871de39f7",
+          "ordinal": "75",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Standing Order",
+            "posted": true,
+            "when": "2016-04-05T00:01:00.000+01:00",
+            "amount": {
+              "value": -18.25,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Sweat It Out Gym - Monthly membership",
+              "medium": "Sweat It Out Gym - Monthly membership",
+              "large": "Sweat It Out Gym - Monthly membership"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Keeping fit",
+                "path": "/keeping fit",
+                "scheme": "NAG Categories",
+                "id": 9,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "d12df535-993d-4b9b-8180-1adc04776170",
+          "ordinal": "76",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Direct Debit",
+            "posted": true,
+            "when": "2016-04-04T00:01:00.000+01:00",
+            "amount": {
+              "value": -54.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "UK Electric Company",
+              "medium": "UK Electric Company",
+              "large": "UK Electric Company"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Utilities",
+                "path": "/utilities",
+                "scheme": "NAG Categories",
+                "id": 20,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "e15d5cf3-a0b0-447a-8e40-42474fbba9bf",
+          "ordinal": "77",
+          "this_account": {
+            "uuid": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-04-02T08:00:00.000+01:00",
+            "amount": {
+              "value": 56.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 02, Quick Stop Garage",
+              "medium": "Card 02, Quick Stop Garage",
+              "large": "Card 02, Quick Stop Garage"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Fuel",
+                "path": "/fuel",
+                "scheme": "NAG Categories",
+                "id": 4,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "47b85bcb-6b15-4946-ad21-bdc0c7000c5f",
+          "ordinal": "78",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-02-16T13:00:00.000+01:00",
+            "amount": {
+              "value": -103.99,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, The Grocers Ltd",
+              "medium": "Card 01, The Grocers Ltd",
+              "large": "Card 01, The Grocers Ltd"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Groceries",
+                "path": "/groceries",
+                "scheme": "NAG Categories",
+                "id": 6,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "f4c3683e-abdb-4435-aa56-73bcc0c2f53a",
+          "ordinal": "79",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Direct Debit",
+            "posted": false,
+            "when": "2016-02-16T13:00:00.000+01:00",
+            "amount": {
+              "value": -45.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "UK Gas Co",
+              "medium": "UK Gas Co",
+              "large": "UK Gas Co"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Utilities",
+                "path": "/utilities",
+                "scheme": "NAG Categories",
+                "id": 20,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": " TBC"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "14e95f49-3221-4ff3-b69d-959578ffc481",
+          "ordinal": "80",
+          "this_account": {
+            "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "",
+            "posted": true,
+            "when": "2015-08-21T13:00:00.000+01:00",
+            "amount": {
+              "value": -35.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, Quick Stop Garage",
+              "medium": "Card 01, Quick Stop Garage",
+              "large": "Card 01, Quick Stop Garage Brown Lane, Greenshire"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Fuel",
+                "path": "/fuel",
+                "scheme": "NAG Categories",
+                "id": 4,
+                "archived": false
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
